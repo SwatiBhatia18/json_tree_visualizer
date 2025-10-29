@@ -222,24 +222,42 @@ html {
 
 /* Node Type Colors */
 .jsonVisNode__label.object {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); /* Purple gradient for objects */
-  border-left: 4px solid #5a67d8;
+  background: #7077ff; 
+  border: 2px solid white; 
+ 
   color: white;
   font-weight: 500;
 }
 
 .jsonVisNode__label.array {
-  background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); /* Green-blue gradient for arrays */
-  border-left: 4px solid #38a169;
+  background: #2e99f6; 
+  border: 2px solid white; 
+ 
   color: white;
   font-weight: 500;
 }
 
 .jsonVisNode__label.primitive {
-  background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); /* Orange-pink gradient for primitives */
-  border-left: 4px solid #ed8936;
+  background: #e855f8;
+  border: 2px solid white;
+  
   color: white;
   font-weight: 500;
+}
+
+/* Light theme node borders */
+.theme-light .jsonVisNode__label.object {
+  border: 2px solid black; 
+
+}
+
+.theme-light .jsonVisNode__label.array {
+  border: 2px solid black; 
+
+}
+
+.theme-light .jsonVisNode__label.primitive {
+  border: 2px solid black; 
 }
 
 .jsonVisNode__label__key {
